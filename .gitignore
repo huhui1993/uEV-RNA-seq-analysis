@@ -1,0 +1,40 @@
+# History files
+.Rhistory
+.RData
+.Rapp.history
+
+# R environment
+.Renviron
+.Renviron.site
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Output files (figures, intermediate results)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.eps
+*.ps
+
+# Large data files (not suitable for GitHub - download from GEO)
+data/raw/
+results/
+
+# Uncompressed data files (keep only .gz versions)
+data/*.txt
+
+# R package downloads
+src/
+
+# RStudio project
+*.Rproj
